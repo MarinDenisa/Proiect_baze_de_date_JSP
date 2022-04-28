@@ -1,0 +1,55 @@
+table {
+	font-family: 'Varela Round', sans-serif;;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #D6EEEE;
+}
+
+tr:hover {
+	background-color: #96D4D4;
+}
+
+.button {
+	background-color: #D6EEEE;
+	border-style: solid;
+	border-color: #81caca;
+	font-style: italic;
+	font-family: 'Varela Round', sans-serif;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #96D4D4;
+}
+
+a:link, a:visited {
+	background-color: #D6EEEE;
+	color: black;
+	padding: 15px 32px;
+	border-style: solid;
+	border-color: #81caca;
+	font-family: 'Varela Round', sans-serif;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+}
+
+a:hover, a:active {
+	background-color: #81caca;
+}
+
